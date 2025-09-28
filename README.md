@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Foundry-v12-informational)
-![Latest Release Download Count](https://img.shields.io/github/downloads/colinbate/rolltable-requester/latest/module.zip)
+![Latest Release Download Count](https://img.shields.io/github/downloads/ttrpgtools/fvtt-troika-qol/latest/module.zip)
 
 # Troika QoL
 
