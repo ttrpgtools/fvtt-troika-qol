@@ -3,9 +3,7 @@
 
 # Troika QoL
 
-A 'potential' collection of quality of life improvements for the Troika Foundry VTT system.
-
-I say potential as there is only one at the moment. More may follow.
+A collection of quality of life "improvements" for the Troika Foundry VTT system.
 
 ## Improvements
 
