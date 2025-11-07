@@ -104,7 +104,6 @@ Hooks.on("renderTroikaActorSheet", async function (app, html, data) {
     const inc = await simpleRoll(data.actor, "2d6", "Luck Recovery");
     increateStat(data.actor, LUCK_PROP, LUCK_MAX, inc);
   });
-  console.log("DATA", data);
   luck.off("click");
   luck.on("click", (ev) => {
     const el = $(ev.currentTarget);
@@ -115,7 +114,6 @@ Hooks.on("renderTroikaActorSheet", async function (app, html, data) {
     data.actor.update({ [LUCK_PROP]: newLuck });
   });
   const itemslist = html.find(".items-list .rollable-skill-test");
-  console.log("ITEMS", itemslist);
   itemslist.off("click");
   itemslist.on("click", async (ev) => {
     const el = $(ev.currentTarget);
@@ -140,7 +138,6 @@ Hooks.on("renderTroikaActorSheet", async function (app, html, data) {
   });
   const provhead = html.find(".monies-provisions-grid h3").last();
   provhead.css("grid-template-columns", "1fr 2rem 2rem");
-  console.log("PROV HEAD", provhead);
   const eat = $(
     '<i class="fas fa-cookie-bite rollable-skill-test" style="justify-self: right;"></i>',
   );
